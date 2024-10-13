@@ -15,7 +15,7 @@ type RealWorldService struct {
 }
 
 // NewGreeterService new a greeter service.
-func NewGreeterService(uc *biz.GreeterUsecase) *RealWorldService {
+func NewRealWorldService(uc *biz.GreeterUsecase) *RealWorldService {
 	return &RealWorldService{uc: uc}
 }
 
