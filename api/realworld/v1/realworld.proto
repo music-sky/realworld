@@ -142,7 +142,7 @@ message UnFavoriteArticleRequest{
 }
 
 message FavoriteArticleRequest{
-  string slog = 1;
+  string slug = 1;
 }
 
 message DeleteCommentRequest{
